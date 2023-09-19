@@ -28,7 +28,6 @@ target_compile_definitions(freertos PUBLIC projCOVERAGE_TEST=0)
 # Create executable with demo code files
 add_executable(${PROJECT_NAME}
     main.c
-    #app.c
     FreeRTOSConfig.h
     console.h console.c
 )
